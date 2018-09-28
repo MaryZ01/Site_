@@ -42,6 +42,128 @@ html {
 	background-repeat: no-repeat;
 }
 
+/*Primary menu (стилі для головного меню)*/
+#primary-menu{
+	background: #FF9700;
+	height: 75px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+#primary-menu > ul {
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+	text-align: center;
+}
+
+#primary-menu > ul  > li {
+	display: inline-block;
+	list-style: none;
+	font-size: 16px;
+}
+
+#primary-menu > ul  > li a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	height: 75px;
+	line-height: 75px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+
+#primary-menu > ul  > li a:hover {
+	color: #333;
+	background-color: #fff;
+}
+
+/*Secondary menu (стилі для другорядного меню)*/
+#secondary-menu {
+	background: #061727;
+	height: 100px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 50px;
+	text-align: center;
+}
+
+#secondary-menu > ul {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	line-height: 100px;
+}
+
+#secondary-menu > #logo {
+	display: inline-block;
+	width: 500px;
+}
+
+#secondary-menu > ul > li {
+	display: inline-block;
+	list-style: none;
+	margin-right: 20px;
+}
+
+#secondary-menu > ul > #logo {
+	width: 575px;
+	position: relative;
+}
+
+#secondary-menu > ul > #logo > img {
+	position: absolute;
+	width: 400px;
+	left: 123px;
+	top: -29px;
+}
+
+#secondary-menu > ul > li > a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#secondary-menu > ul > li > a:hover {
+	color: #FF9700
+}
+
+/*slider*/
+
+#slider {
+	height: 450px;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+
+/*content*/
+
+#content-wrapper {
+	background-color: #fff;
+}
+
+#content, #sidebar {
+	float: left;
+	padding: 40px;
+}
+
+#content {
+	width: 75%;
+}
+
+#sidebar {
+	width: 25%;
+}
+
+.clear {
+	clear: both;
+}
+
+#footer {
+	background-color: #061727;
+	padding: 35px;
+	color: #fff;
+}
 
 
 
