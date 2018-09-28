@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+html, body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+img{
+	max-width: 100%;
+}
+
+a {
+	display: inline-block;
+}
+
+* {
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#page-wrapper {
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+html {
+	background-image: url(http://www.wwalls.ru/large/201210/46153.jpg);
+}
+	
+#page-wrapper {
+	min-height: 100%;
+}
+
+#page-wrapper {
+	background-image: url(http://wikitravel.org/upload/shared//5/5e/Panama_City_Banner.jpg);
+	background-position: center-top;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
